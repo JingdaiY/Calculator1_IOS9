@@ -128,37 +128,37 @@
                                                                                                                         <rect key="frame" x="0.0" y="0.0" width="130" height="57"/>
                                                                                                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                                                                                         <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                                                                                                        <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
-                                                                                                                        <state key="normal" title="×"/>
+                                                                                                                        <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                                                                                        <state key="normal" title="M"/>
                                                                                                                         <connections>
-                                                                                                                            <action selector="performOperation:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Clb-N6-QOT"/>
+                                                                                                                            <action selector="inputM:" destination="BYZ-38-t0r" eventType="touchUpInside" id="64j-cK-PlC"/>
                                                                                                                         </connections>
                                                                                                                     </button>
                                                                                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7jj-Ui-KRo">
                                                                                                                         <rect key="frame" x="140" y="0.0" width="130" height="57"/>
                                                                                                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                                                                                         <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                                                                                                        <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
-                                                                                                                        <state key="normal" title="÷"/>
+                                                                                                                        <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                                                                                        <state key="normal" title="→M"/>
                                                                                                                         <connections>
-                                                                                                                            <action selector="performOperation:" destination="BYZ-38-t0r" eventType="touchUpInside" id="67a-gT-Xq8"/>
+                                                                                                                            <action selector="setM" destination="BYZ-38-t0r" eventType="touchUpInside" id="EHA-SY-8cA"/>
                                                                                                                         </connections>
                                                                                                                     </button>
                                                                                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nK0-WO-lSg">
                                                                                                                         <rect key="frame" x="280" y="0.0" width="130" height="57"/>
                                                                                                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                                                                                         <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                                                                                                        <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
-                                                                                                                        <state key="normal" title="+"/>
+                                                                                                                        <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                                                                                        <state key="normal" title="☜"/>
                                                                                                                         <connections>
-                                                                                                                            <action selector="performOperation:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bks-7f-PCd"/>
+                                                                                                                            <action selector="undoOrDelete" destination="BYZ-38-t0r" eventType="touchUpInside" id="aq9-LB-hb9"/>
                                                                                                                         </connections>
                                                                                                                     </button>
                                                                                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EeV-7C-nPS">
                                                                                                                         <rect key="frame" x="420" y="0.0" width="130" height="57"/>
                                                                                                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                                                                                         <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                                                                                                        <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                                                                                        <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                                                                                         <state key="normal" title="C"/>
                                                                                                                         <connections>
                                                                                                                             <action selector="performOperation:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gfw-Zg-9vD"/>
@@ -173,7 +173,7 @@
                                                                                                                         <rect key="frame" x="0.0" y="0.0" width="130" height="57"/>
                                                                                                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                                                                                         <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                                                                                                        <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                                                                                        <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                                                                                         <state key="normal" title="×"/>
                                                                                                                         <connections>
                                                                                                                             <action selector="performOperation:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BBD-Qd-P41"/>
@@ -183,7 +183,7 @@
                                                                                                                         <rect key="frame" x="140" y="0.0" width="130" height="57"/>
                                                                                                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                                                                                         <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                                                                                                        <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                                                                                        <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                                                                                         <state key="normal" title="÷"/>
                                                                                                                         <connections>
                                                                                                                             <action selector="performOperation:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3a0-PK-hBP"/>
@@ -193,7 +193,7 @@
                                                                                                                         <rect key="frame" x="280" y="0.0" width="130" height="57"/>
                                                                                                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                                                                                         <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                                                                                                        <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                                                                                        <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                                                                                         <state key="normal" title="+"/>
                                                                                                                         <connections>
                                                                                                                             <action selector="performOperation:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FLp-Rl-IOU"/>
@@ -203,7 +203,7 @@
                                                                                                                         <rect key="frame" x="420" y="0.0" width="130" height="57"/>
                                                                                                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                                                                                         <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                                                                                                        <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                                                                                        <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                                                                                         <state key="normal" title="−"/>
                                                                                                                         <connections>
                                                                                                                             <action selector="performOperation:" destination="BYZ-38-t0r" eventType="touchUpInside" id="TnZ-qo-ZbC"/>
@@ -248,7 +248,7 @@
                                                                                                                         <rect key="frame" x="420" y="0.0" width="130" height="56"/>
                                                                                                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                                                                                         <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                                                                                                        <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                                                                                        <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                                                                                         <state key="normal" title="π"/>
                                                                                                                         <connections>
                                                                                                                             <action selector="performOperation:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aRd-4O-ZdN"/>
@@ -293,7 +293,7 @@
                                                                                                                         <rect key="frame" x="420" y="0.0" width="130" height="57"/>
                                                                                                                         <color key="backgroundColor" red="0.97711976489999997" green="0.96259666070000005" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                                                                                         <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                                                                                                        <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                                                                                        <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                                                                                         <state key="normal" title="√"/>
                                                                                                                         <connections>
                                                                                                                             <action selector="performOperation:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HeY-TP-cA5"/>
